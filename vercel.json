@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "functions": {
+    "api/inquiry.js": {
+      "includeFiles": "public/**",
+      "maxDuration": 30
+    }
+  },
+  "redirects": [
+    {
+      "source": "/games",
+      "destination": "/rentals/?category=Lawn%20games",
+      "permanent": true
+    },
+    {
+      "source": "/other-rentals",
+      "destination": "/rentals/?category=Event%20extras",
+      "permanent": true
+    },
+    {
+      "source": "/wow-factor-2",
+      "destination": "/rentals/?category=Wow%20factor",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/get-your-quote",
+      "destination": "/inquire/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/giant-connect-four",
+      "destination": "/rentals/giant-connect-four/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/kidsconnectfour",
+      "destination": "/rentals/kidsconnectfour/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/ladderball",
+      "destination": "/rentals/ladderball/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/yardpong",
+      "destination": "/rentals/yardpong/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/footballplayertoss",
+      "destination": "/rentals/footballplayertoss/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/footballtoss",
+      "destination": "/rentals/footballtoss/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/axethrowing",
+      "destination": "/rentals/axethrowing/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/spinthewheel",
+      "destination": "/rentals/spinthewheel/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/dropsterplinko",
+      "destination": "/rentals/dropsterplinko/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/puttinggolf",
+      "destination": "/rentals/puttinggolf/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/tic-tac-toe",
+      "destination": "/rentals/tic-tac-toe/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/ringtoss",
+      "destination": "/rentals/ringtoss/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/yardzee",
+      "destination": "/rentals/yardzee/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/giantjenga",
+      "destination": "/rentals/giantjenga/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/croquet",
+      "destination": "/rentals/croquet/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/weddingcornhole",
+      "destination": "/rentals/weddingcornhole/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/standardcornhole",
+      "destination": "/rentals/standardcornhole/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/pingpong",
+      "destination": "/rentals/pingpong/",
+      "permanent": true
+    },
+    {
+      "source": "/games/p/game-customization-add-on",
+      "destination": "/rentals/game-customization-add-on/",
+      "permanent": true
+    },
+    {
+      "source": "/other-rentals/p/luxephotomomentpackages",
+      "destination": "/rentals/luxephotomomentpackages/",
+      "permanent": true
+    },
+    {
+      "source": "/other-rentals/p/redcarpet",
+      "destination": "/rentals/redcarpet/",
+      "permanent": true
+    },
+    {
+      "source": "/other-rentals/p/audio-guestbook",
+      "destination": "/rentals/audio-guestbook/",
+      "permanent": true
+    },
+    {
+      "source": "/other-rentals/p/discoball",
+      "destination": "/rentals/discoball/",
+      "permanent": true
+    },
+    {
+      "source": "/other-rentals/p/champagnetower",
+      "destination": "/rentals/champagnetower/",
+      "permanent": true
+    },
+    {
+      "source": "/other-rentals/p/flowerbarstand",
+      "destination": "/rentals/flowerbarstand/",
+      "permanent": true
+    },
+    {
+      "source": "/wow-factor-2/p/deluxe-package-9r5ts",
+      "destination": "/rentals/deluxe-package-9r5ts/",
+      "permanent": true
+    },
+    {
+      "source": "/wow-factor-2/p/bridalhotelsetup",
+      "destination": "/rentals/bridalhotelsetup/",
+      "permanent": true
+    },
+    {
+      "source": "/wow-factor-2/p/bridalblissbox",
+      "destination": "/rentals/bridalblissbox/",
+      "permanent": true
+    },
+    {
+      "source": "/wow-factor-2/p/wowfactoreventconsulting",
+      "destination": "/rentals/wowfactoreventconsulting/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    }
+  ]
+}
