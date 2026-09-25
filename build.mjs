@@ -1,0 +1,15 @@
+import {readFile,writeFile,mkdir,rm,cp} from 'node:fs/promises';
+import {brand,esc,header,footer,home} from './site.mjs';
+const products=JSON.parse(await readFile('catalogue.json','utf8'));
+const origin=new URL(process.env.SITE_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:4173')).origin;
+await rm('dist',{recursive:true,force:true});await mkdir('dist',{recursive:true});await cp('public','dist',{recursive:true});
+await mkdir('dist/vendor',{recursive:true});
+await cp('node_modules/pdf-lib/dist/pdf-lib.min.js','dist/vendor/pdf-lib.min.js');
+await cp('node_modules/@pdf-lib/fontkit/dist/fontkit.umd.min.js','dist/vendor/fontkit.umd.min.js');
+const pages=[['/',brand,'Lawn games and thoughtful event rentals for weddings, parties and corporate events across Niagara, Ontario.',home(products)]];
+const {morePages}=await import('./pages.mjs');pages.push(...morePages(products));
+for(const [route,title,description,content] of pages){const url=origin+route;const item=products.find(p=>route===`/rentals/${p.id}/`);const preview=origin+'/og.png';const previewAlt='Niagara Wedding and Event Rentals — A little play. A lot of memories.';const html=`<!DOCTYPE html><html lang="en-CA"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#343c2f"><link rel="canonical" href="${url}"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="website"><meta property="og:site_name" content="${brand}"><meta property="og:locale" content="en_CA"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${preview}"><meta property="og:image:alt" content="${esc(previewAlt)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${preview}"><link rel="stylesheet" href="/fonts.css"><link rel="stylesheet" href="/style.css"><script src="/app.js" type="module"></script></head><body>${header(route)}<main id="main">${content}</main>${footer()}</body></html>`;const file=route==='/404.html'?'dist/404.html':`dist${route}index.html`;await mkdir(file.slice(0,file.lastIndexOf('/')),{recursive:true});await writeFile(file,html);}
+await writeFile('dist/catalogue.json',JSON.stringify(products));
+await writeFile('dist/robots.txt',`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
+await writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.filter(p=>p[0]!='/404.html').map(p=>`<url><loc>${origin}${p[0]}</loc></url>`).join('')}</urlset>`);
+console.log(`Built ${pages.length} pages for ${origin}`);

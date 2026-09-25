@@ -1,0 +1,263 @@
+[
+  {
+    "id": "giant-connect-four",
+    "name": "Giant Connect Four",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Bring oversized fun to your event with our Giant Connect Four game! This larger-than-life version of the classic game is perfect for players of all ages. Guests take turns dropping colorful discs into the frame, aiming to connect four in a row while blocking their opponent's moves. Ideal for weddings, parties, or corporate events, this game guarantees hours of entertainment and adds a playful touch to any celebration.",
+    "image": "/assets/giant-connect-four.jpg",
+    "legacyPath": "/games/p/giant-connect-four"
+  },
+  {
+    "id": "kidsconnectfour",
+    "name": "Kids' Connect-Four",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Get 3 times the fun in one game with this exciting combo of Connect Four , Ring Toss , and Basketball Toss ! This giant version of Connect Four takes the classic strategy game to the next level, but with a twist\u2014it also includes ring toss and basketball toss elements, making it the ultimate multi-game experience. Players race to line up four pieces while also aiming for rings and shooting hoops for extra points, all within the same game.",
+    "image": "/assets/kidsconnectfour.jpg",
+    "legacyPath": "/games/p/kidsconnectfour"
+  },
+  {
+    "id": "ladderball",
+    "name": "Ladder Ball",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "This crowd-favorite lawn game invites players to toss bolas onto the ladder's rungs, with each rung earning different points. A perfect blend of skill and fun, Ladder Ball adds a competitive twist to any outdoor event. The first to reach the score limit wins!",
+    "image": "/assets/ladderball.jpg",
+    "legacyPath": "/games/p/ladderball"
+  },
+  {
+    "id": "yardpong",
+    "name": "Yard Pong",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Take your event to the next level with our Yard Pong game set! Perfect for outdoor fun, this oversized version of the classic party game is sure to get everyone involved. Teams take turns tossing large ping pong balls into oversized cups, aiming to clear the other team\u2019s cups first. Yard Pong is a fun, competitive game that\u2019s perfect for parties, barbecues, weddings, or any outdoor celebration. Get ready for laughs, challenges, and great memories with this exciting game!",
+    "image": "/assets/yardpong.jpg",
+    "legacyPath": "/games/p/yardpong"
+  },
+  {
+    "id": "footballplayertoss",
+    "name": "Football Player Toss",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Feel like a pro quarterback with the Football Player Toss! Guests will have a blast aiming footballs through cut-out targets on this themed stand. Whether you're hosting a sports-themed event or just want to add a bit of competitive fun, this game is sure to be a hit.",
+    "image": "/assets/footballplayertoss.jpg",
+    "legacyPath": "/games/p/footballplayertoss"
+  },
+  {
+    "id": "footballtoss",
+    "name": "Football Endzone",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Test your throwing skills with Football Endzone, where players aim to land footballs in target holes of varying sizes. Perfect for sports fans, this game brings friendly competition and excitement to your event as players see who can hit the most targets.",
+    "image": "/assets/footballtoss.jpg",
+    "legacyPath": "/games/p/footballtoss"
+  },
+  {
+    "id": "axethrowing",
+    "name": "Axe Throwing",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Unleash your inner lumberjack with our Axe Throwing Rental ! This thrilling activity is perfect for adding some friendly competition and excitement to your event. Players take turns throwing lightweight axes at a target, aiming for the bullseye or the highest score. With a bit of skill and a lot of fun, it\u2019s an unforgettable experience for guests at weddings , stag and does , corporate events , birthday parties , and more!",
+    "image": "/assets/axethrowing.jpg",
+    "legacyPath": "/games/p/axethrowing"
+  },
+  {
+    "id": "spinthewheel",
+    "name": "Spin-the-Wheel",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Bring the thrill of a game show to your party with Spin-the-Wheel! Guests take a spin to win prizes, complete challenges, or try their luck. This game is great for adding a bit of excitement and surprise, with endless customization options for what each spin reveals.",
+    "image": "/assets/spinthewheel.jpg",
+    "legacyPath": "/games/p/spinthewheel"
+  },
+  {
+    "id": "dropsterplinko",
+    "name": "Dropster (Plinko)",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Add a touch of excitement to your event with our Dropster game! Similar to the classic Plinko, this interactive game features customizable panels, making it perfect for corporate branding, stag and doe fundraisers, or any event where fun meets strategy. Guests drop tokens from the top and watch them bounce through pegs to land in prize slots below. Create unforgettable moments with this eye-catching game that\u2019s as entertaining to watch as it is to play. A guaranteed crowd-pleaser for any occasion!",
+    "image": "/assets/dropsterplinko.jpg",
+    "legacyPath": "/games/p/dropsterplinko"
+  },
+  {
+    "id": "puttinggolf",
+    "name": "Putting Golf",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Bring the green to your event with this Putting Golf game! Whether players are seasoned golfers or just having fun, they\u2019ll enjoy testing their putting skills. This compact game is easy to set up and offers a relaxing yet engaging activity for guests to enjoy.",
+    "image": "/assets/puttinggolf.jpg",
+    "legacyPath": "/games/p/puttinggolf"
+  },
+  {
+    "id": "tic-tac-toe",
+    "name": "Tic-Tac-Toe",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "A larger-than-life take on a classic favourite! Our oversized Tic Tac Toe lawn game brings instant fun and friendly competition to any wedding, corporate event, or outdoor celebration. Perfect for guests of all ages, this interactive game is a great way to keep people mingling during cocktail hour or while enjoying the outdoors. Simple to play, quick to set up, and always a crowd-pleaser, it adds a playful touch without taking away from the elegance of your event. Whether your vibe is relaxed, stylish, or somewhere in between, Tic Tac Toe is a fun and engaging way to elevate your guest experience.",
+    "image": "/assets/tic-tac-toe.png",
+    "legacyPath": "/games/p/tic-tac-toe"
+  },
+  {
+    "id": "ringtoss",
+    "name": "Ring Toss",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Simple yet entertaining, the Ring Toss game adds a touch of classic carnival fun to any event. Players throw rings in an attempt to land them on posts for points. It's a great game for guests of all ages, offering a mix of challenge and enjoyment that can be played over and over.",
+    "image": "/assets/ringtoss.jpg",
+    "legacyPath": "/games/p/ringtoss"
+  },
+  {
+    "id": "yardzee",
+    "name": "Yardzee",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Yardzee is a giant outdoor version of the traditional dice game, where players roll big wooden dice to complete various scoring combinations. With five rounds of rolling, players strategize to get the highest score. Perfect for both competitive groups and casual players, Yardzee is a hit for outdoor fun.",
+    "image": "/assets/yardzee.jpg",
+    "legacyPath": "/games/p/yardzee"
+  },
+  {
+    "id": "giantjenga",
+    "name": "Giant Jenga",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "A giant version of the well-loved block-stacking game, Giant Jenga brings suspense and excitement to any gathering. As players remove blocks and place them on top of an increasingly unstable tower, the tension builds. Who will be the one to make it fall? Fun for all ages, this game never gets old.",
+    "image": "/assets/giantjenga.jpg",
+    "legacyPath": "/games/p/giantjenga"
+  },
+  {
+    "id": "croquet",
+    "name": "Croquet",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Add a touch of elegance to your event with Croquet, a classic lawn game where players use mallets to hit balls through a series of hoops. Whether your guests are experienced players or newcomers, Croquet provides a relaxing yet competitive game for outdoor gatherings.",
+    "image": "/assets/croquet.jpg",
+    "legacyPath": "/games/p/croquet"
+  },
+  {
+    "id": "weddingcornhole",
+    "name": "Wedding Corn Hole",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Cornhole is a classic lawn game where players toss bean bags onto a slanted board with a hole, aiming to get them through the hole or land on the board for points. With simple rules and competitive gameplay, Cornhole is a fan favorite at weddings , stag and does , showers , engagement parties , and more! This version of the game adds a twist to the traditional lawn game, making it a fun and unique addition to your celebration. Whether you\u2019re creating friendly competition at your reception or adding a playful touch to your pre-wedding festivities, Wedding Cornhole is sure to bring excitement to the event. Ask us about our customization options!",
+    "image": "/assets/weddingcornhole.jpg",
+    "legacyPath": "/games/p/weddingcornhole"
+  },
+  {
+    "id": "standardcornhole",
+    "name": "Standard Corn Hole",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Bring classic backyard fun to your event with our Cornhole game set! This easy-to-learn, highly addictive game is perfect for all ages. Players take turns tossing bean bags onto a wooden board with a hole at the end, aiming to score points by landing their bags in the hole or on the board. Whether you're hosting a casual family gathering or a lively event, Cornhole adds a fun, competitive element that will have everyone cheering. It's ideal for outdoor events, weddings, picnics, and more! Ask us about our customization options!",
+    "image": "/assets/standardcornhole.jpg",
+    "legacyPath": "/games/p/standardcornhole"
+  },
+  {
+    "id": "pingpong",
+    "name": "Ping Pong (Table Tennis)",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Bring the fun (and a little friendly competition) to your big day or event with our Ping Pong Table rental ! Perfect for keeping guests entertained between ceremony and reception, or for adding that unexpected twist to your cocktail hour, this table is a total crowd-pleaser. Whether you're hosting a wedding, corporate event, backyard bash, or something in between, our ping pong table is ready to rally. It comes with paddles, balls, and all the good vibes you need for a smash hit. Bonus: it's easy to move, fits in all kinds of spaces, and sets up in no time. Who says weddings can\u2019t have a little spin ?",
+    "image": "/assets/pingpong.jpg",
+    "legacyPath": "/games/p/pingpong"
+  },
+  {
+    "id": "game-customization-add-on",
+    "name": "Game Customization Add-On",
+    "category": "Lawn games",
+    "price": 125.0,
+    "description": "Take your event to the next level with our Game Customization add-on. For an additional fee, we can personalize select games with custom vinyl decals \u2014 perfect for showcasing your monogram, logo, hashtag, or special message . Whether you're planning a wedding, corporate event, or milestone celebration, this is a fun and stylish way to make your rentals truly one-of-a-kind. Popular Customizations Include: Couple\u2019s initials or wedding monograms Company logos or event branding Custom messages or event hashtags Available on select games. Pricing varies depending on the design and game selected.",
+    "image": "/assets/game-customization-add-on.jpg",
+    "legacyPath": "/games/p/game-customization-add-on"
+  },
+  {
+    "id": "luxephotomomentpackages",
+    "name": "Luxe Photo Moment Backdrop Packages",
+    "category": "Event extras",
+    "price": 450.0,
+    "description": "Modern, luxury statement backdrops designed to elevate your event and create the perfect photo-ready focal point. Ideal for bridal showers, engagements, baby showers, birthdays, weddings, corporate events, and content shoots. Each package includes delivery, setup, and teardown for a seamless, stress-free experience. We offer three curated options \u2014 from simple elevated setups to fully custom luxury designs tailored to your event vision. Starting at $450 CAD",
+    "image": "/assets/luxephotomomentpackages.jpg",
+    "legacyPath": "/other-rentals/p/luxephotomomentpackages"
+  },
+  {
+    "id": "redcarpet",
+    "name": "Red Carpet & Stanchion Rentals \u2013 Create a Grand Entrance",
+    "category": "Event extras",
+    "price": 125.0,
+    "description": "Make every guest feel like a VIP with our elegant red carpet and velvet rope stanchion rentals. Perfect for weddings, galas, corporate events, birthdays, grand openings, photo ops, and upscale parties, this combination instantly adds sophistication, organization, and a polished event experience. Our premium red carpet runner creates a stunning focal point for entrances, aisles, and photo areas, while our sleek stainless-steel stanchions with plush velvet ropes help guide guests and define spaces with style. Why Rent Our Red Carpet & Stanchions? Elegant VIP Experience Create a luxurious, photo-worthy entrance that makes a lasting first impression. Perfect for Any Event Ideal for weddings, red carpet events, dances, award nights, birthday parties, corporate functions, and more. Customizable Layouts Flexible four-way stanchion connections and 5-foot velvet ropes allow you to design the perfect setup for your space. Durable & Event Ready Sturdy weighted bases stay secure indoors or outdoors, even in high-traffic areas. Professional Crowd Flow Keep entrances organized while adding an upscale, polished touch to your event d\u00e9cor. Whether you\u2019re creating a glamorous aisle, a celebrity-style entrance, or a stylish photo moment, our red carpet and stanchion package brings elegance and functionality together seamlessly.",
+    "image": "/assets/redcarpet.jpg",
+    "legacyPath": "/other-rentals/p/redcarpet"
+  },
+  {
+    "id": "audio-guestbook",
+    "name": "Audio Guestbook",
+    "category": "Event extras",
+    "price": 450.0,
+    "description": "Make memories last with our Audio Guestbook Rental , available in Retro , Public , and Vintage styles, perfect for celebrating life\u2019s special moments! Whether it\u2019s a wedding , baby shower , bridal shower , or birthday party , this unique guestbook lets your loved ones leave heartfelt messages that you can treasure forever. Features : Stylish Designs : Choose from Retro, Public, or Vintage styles to match your event\u2019s theme. Effortless Setup : Easy-to-use for guests of all ages, ensuring everyone can participate. Cherished Keepsake : All messages are saved and delivered on a USB drive after the event, so you can relive the love and laughter anytime. Add a nostalgic and personal touch to your celebration with an audio guestbook that lets voices tell the story of your special day! Booth not included * Add the English Style Booth to your next event for a bundle price Styles of Phones: Public Phone Style Sleek and minimalist, inspired by classic payphones with a clean, modern twist. Perfect for adding a subtle nostalgic touch. Retro Phone Style Classic and stylish, featuring a white finish with curvy mid-20th-century design. Adds a timeless nostalgic vibe. Vintage Phone Style Elegant and timeless with brass accents and rotary dials. Ideal for adding classic sophistication to any space. Signs included at no extra charge",
+    "image": "/assets/audio-guestbook.jpg",
+    "legacyPath": "/other-rentals/p/audio-guestbook"
+  },
+  {
+    "id": "discoball",
+    "name": "Mirror Disco Balls",
+    "category": "Event extras",
+    "price": 125.0,
+    "description": "Keep the energy high and the dance floor sparkling with our dazzling disco ball, the perfect addition to your wedding or event. With its 20-inch size and hundreds of reflective mini mirrors, it creates brilliant reflections that light up every inch of the dance floor. Shine colored lights towards the mirror ball for a spectacular mix of vibrant, moving spots that will fill the room with excitement and fun, ensuring your celebration is unforgettable.",
+    "image": "/assets/discoball.jpg",
+    "legacyPath": "/other-rentals/p/discoball"
+  },
+  {
+    "id": "champagnetower",
+    "name": "Champagne Tower",
+    "category": "Event extras",
+    "price": 125.0,
+    "description": "Elevate your wedding or special occasion with our elegant champagne tower rental. Perfect for creating a show-stopping centerpiece, this tower offers a sophisticated, mess-free alternative to traditional glass coupe towers, making it safe and easy for your guests to enjoy. Whether for a wedding toast, New Year\u2019s Eve celebration, or any special event, this champagne tower will impress your guests and add a touch of glamour to your day (Champagne not included).",
+    "image": "/assets/champagnetower.jpg",
+    "legacyPath": "/other-rentals/p/champagnetower"
+  },
+  {
+    "id": "flowerbarstand",
+    "name": "Flower Bar Stand",
+    "category": "Event extras",
+    "price": 125.0,
+    "description": "Create a stunning and interactive highlight for your bridal shower, baby shower, or special celebration with our delightful Flower Bar! Guests can unleash their creativity by designing their own custom floral arrangements, making for a memorable and engaging experience. Featuring three tiers with 12 buckets to beautifully showcase vibrant blooms. This charming mobile flower shop display stand is equipped with wheels for effortless placement, ensuring it fits seamlessly into your event's layout. Flowers  and vases not included",
+    "image": "/assets/flowerbarstand.jpg",
+    "legacyPath": "/other-rentals/p/flowerbarstand"
+  },
+  {
+    "id": "deluxe-package-9r5ts",
+    "name": "Romantic Hotel Room Setup",
+    "category": "Wow factor",
+    "price": 350.0,
+    "description": "Surprise your partner with a dreamy room transformation, perfect for Valentine\u2019s Day, proposals, anniversaries, or \u201cjust because.\u201d Let us create a magical experience they\u2019ll never forget! \ud83d\udc95 \ud83c\udf88 What\u2019s Included: \u2764\ufe0f 20 red helium foil balloons and 40 latex balloons (customizable upon request) \ud83d\udd6f 50 LED candles for a warm, romantic glow \ud83c\udf392,000 faux flower petals (default red, customizable) \ud83d\udc8d A large centerpiece (e.g., \u201cWill You Marry Me?\u201d, \u201cLove,\u201d or \u201cHappy Anniversary\u201d) Seamless setup \u2013 your room will be picture-perfect! Optional Add-Ons: \ud83c\udf37 A dozen real roses (default red, customizable) \ud83c\udf7e Sparkling wine or sparkling juice (your choice) \ud83e\udd42 Two keepsake champagne glasses \ud83e\uddf8 A 4ft Teddy Bear \ud83c\udf6b A Premium Chocolate Box \ud83c\udf53 Half a Dozen Chocolate Covered Strawberries \ud83c\udf82 Premium and Delicious Celebration Cake \ud83c\udf81 A Large Custom Gift Box with Self-Care Products (includes a premium scented candle, face mask, bath bombs, and more!) \ud83d\udccd Serving Niagara, Ontario \ud83d\udc8c Ready to create an unforgettable surprise? Contact us to book your package today!",
+    "image": "/assets/deluxe-package-9r5ts.jpg",
+    "legacyPath": "/wow-factor-2/p/deluxe-package-9r5ts"
+  },
+  {
+    "id": "bridalhotelsetup",
+    "name": "Bridal Getting Ready Hotel Room Package",
+    "category": "Wow factor",
+    "price": 350.0,
+    "description": "Transform your wedding morning into a luxurious and picture-perfect experience! From stunning decor to personalized touches, our Bridal Getting Ready package creates the ultimate backdrop for those cherished \u201cgetting ready\u201d moments. \ud83d\udcf8\ud83d\udc8d Here\u2019s what\u2019s included: \ud83c\udf88 Air-Filled \u201cBride\u201d Balloon Backdrop (default white, customizable colors: White, Gold, Silver, Rose Gold) \ud83c\udf88 20 Helium Balloons (default white, customizable colors: White, Gold, Silver, Rose Gold) to add a fun and festive touch \ud83c\udf88 40 Air filled latex balloons (default white, customizable colors) \ud83d\udc96 Elegantly Styled Space to make you feel pampered and relaxed. Add something extra: \ud83d\udcf8 Detail Shot Tray \u2013 Perfect for flat-lay photos \ud83c\udf37 Fresh Floral Bouquet \ud83c\udf7e Full-Size Sparkling Wine, Champagne, or sparkling juice to celebrate with keepsake champagne flutes \ud83c\udf81 Personalized \u201cGetting Ready\u201d Props for that extra touch of glamour \ud83c\udf81 Luxury Bridal Gift Box with a custom headpiece, personalized slippers, stylish sunglasses, and more! \ud83d\udc8c Contact us to book your Bridal Getting Ready Hotel Room Package today and start your wedding day in style!",
+    "image": "/assets/bridalhotelsetup.jpg",
+    "legacyPath": "/wow-factor-2/p/bridalhotelsetup"
+  },
+  {
+    "id": "bridalblissbox",
+    "name": "Give the gift of Bridal Bliss!",
+    "category": "Wow factor",
+    "price": 250.0,
+    "description": "Our Personalized Bridal Bliss Gift Box is the perfect way to spoil your newly engaged friend, bride-to-be, or celebrate special moments like bridal showers and wedding day surprises! \ud83d\udc8d\ud83d\udc90 Filled with thoughtfully curated items, this box is designed to make her feel pampered, cherished, and ready for the big day. From keepsakes to self-care goodies, every detail is about celebrating her journey to \u201cI do.\u201d \ud83d\udc96 Perfect for bridal showers, engagement gifts, or a sweet surprise on her wedding day.",
+    "image": "/assets/bridalblissbox.jpg",
+    "legacyPath": "/wow-factor-2/p/bridalblissbox"
+  },
+  {
+    "id": "wowfactoreventconsulting",
+    "name": "Wow Factor Consulting",
+    "category": "Wow factor",
+    "price": 200.0,
+    "description": "Take your event to the next level with our professional Event Consulting Service, where every detail is designed to leave a lasting impression. Whether you\u2019re planning a wedding, milestone celebration, or corporate event, we bring creative ideas and expert guidance to make your vision a reality. From personalized touches that make your event uniquely yours to show-stopping entertainment that keeps your guests engaged, we\u2019ll help you create an unforgettable experience. Our services include everything from selecting d\u00e9cor that wows to recommending standout activities and surprises that will leave your guests raving. With a passion for innovation and a commitment to excellence, we\u2019ll work closely with you to design an event that is seamless, stylish, and spectacular. Let us elevate your event and create memories that last a lifetime!",
+    "image": "/assets/wowfactoreventconsulting.jpg",
+    "legacyPath": "/wow-factor-2/p/wowfactoreventconsulting"
+  }
+]
